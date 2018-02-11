@@ -35,5 +35,8 @@ google_plus:
 fb_admins:
 fb_app_id:
 
+# Google Analytics Tracking ID
+google_analytics: UA-113291924-1
+
 stylus:
   compress: false
