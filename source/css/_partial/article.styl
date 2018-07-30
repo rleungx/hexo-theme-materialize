@@ -26,26 +26,16 @@
     margin: 0 0 10px 0
     font-size: 2rem;
     font-weight: 600;
-
+    font-family: font-serif
 
 .article-meta
   clearfix()
-  font-size: 0.8em
-  padding: 5px;
-  border-top: 1px dotted #CCC;
-  border-bottom: 1px dotted #CCC;
-
-.article-date
-  @extend $block-caption
-  float: left
-
 
 .article-entry
   @extend $base-style
   clearfix()
 
   color: color-default
-  padding: 0 article-padding
 
   p, table
     line-height: line-height
@@ -190,10 +180,6 @@
     font-family: font-icon
     padding-right: 6px
 
-
-
-
-
 .article-share-box
   position: absolute
   display: none
@@ -307,8 +293,6 @@ $article-share-link
     max-width: 100%
     margin: 0 auto
 
-
-
 #page-nav
   margin: block-margin auto
   background: #fff
@@ -345,7 +329,6 @@ $article-share-link
 
   .space
     color: color-border
-
 
 /////////////
 .archives .header
